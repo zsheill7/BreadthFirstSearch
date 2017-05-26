@@ -106,3 +106,21 @@ BFS bfs = new BFS();
 		vertex4.addNeighborVertex(vertex5);
 		vertex2.addNeighborVertex(vertex3);
 ```
+The first line initializes the Breadth-First Search Algorithm and the subsequent lines create a data tree with the root node vertex1.
+
+Next, add the following line.  This will run your breadth-first search algorithm.
+```
+bfs.bfs(vertex1);
+```
+
+
+Output window:
+1 
+2 
+4 
+3 
+5 
+
+
+Success!  Our Breadth-First Search Algorithm found all the nodes!
+
